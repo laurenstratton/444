@@ -1,3 +1,12 @@
 body{
-    cursor: url(icon.png), pointer;
+    background-color: black;
+    color:white ;
+    margin: 30px;
+
+    font-family: 'Bitter', serif;
+}
+
+h1 {
+    color: hotpink;
+
 }
