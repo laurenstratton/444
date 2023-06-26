@@ -3,22 +3,22 @@
 }
 body{
     background-color:#ffe0e9;
-    color:#ff99b6;
+    color:#FF90BB;
     margin: 60px;
     font-size: larger;
     font-family: 'Bitter', serif;
    
 }
 h1 {
-    color: #FF9EAA ;
+    color: #FF2171;
 }
 .content-box {
 
-    background-color: coral;
-    width:400px;
-    height: 300px;
+    background-color: #FFFAD7;
+    width:500px;
+    height: 500px;
     padding:10px;
-    border: 10px dashed brown;
+    border: 10px dashed #FFE4A7;
     margin: 10px; 
     box-sizing: content-box;
   }
