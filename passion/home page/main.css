@@ -1,0 +1,28 @@
+body{
+    background-color:#ffe0e9;
+    color:#ff99b6;
+    margin: 60px;
+    font-size: larger;
+    font-family: 'Bitter', serif;
+   
+}
+
+h1 {
+    font-style: italic;
+    color:#9f8be8;
+
+}
+h2{
+    color:#caadff;
+}
+
+table{
+    background-color: #ffc2e2;
+    text-align: center;
+    
+}
+
+button{
+    background-color:#ffc2e2; 
+    text-align: center;
+}

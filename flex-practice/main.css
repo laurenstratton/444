@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.main-container {
+  background-color: burlywood;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: cadetblue;
+  height:20%;
+  display:flex;
+  justify-content: space-evenly;
+
+  padding: 10px
+}
+
+.top-item {
+  background-color:azure;
+  width: 30%;
+  border: 1px solid;
+}
+
+.bottom {
+  background-color: coral;
+  height: 80%;
+  display: flex;
+}
+.left {
+  background-color: slateblue;
+  width: 50%;
+}
+.right{
+  background-color: darkseagreen;
+  width: 50%;
+}
