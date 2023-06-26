@@ -6,11 +6,11 @@ body{
     color:#FF90BB;
     margin: 60px;
     font-size: larger;
-    font-family: 'Bitter', serif;
+
    
 }
 h1 {
-    color: #FF2171;
+    color: #9d8189;
 }
 h3{
     color:#FF2171;
@@ -19,16 +19,15 @@ h3{
 
     background-color: #FFFAD7;
     box-sizing: content-box;
-    border:50px groove pink;
+    border:20px pink;
     border-radius: 13px;
-    /* border radius rounds the border */
 
     padding: 40px 30px 30px 20px ;
 
-    max-width: 500px;
+    max-width: 100%;
 
     overflow: auto;
 
     text-align: justify;
-    line-height: 45px;
+    line-height: auto;
   }
