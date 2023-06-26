@@ -1,3 +1,6 @@
+*{
+    box-sizing: content-box;
+}
 body{
     background-color:#ffe0e9;
     color:#ff99b6;
@@ -9,3 +12,13 @@ body{
 h1 {
     color: #FF9EAA ;
 }
+.content-box {
+
+    background-color: coral;
+    width:400px;
+    height: 300px;
+    padding:10px;
+    border: 10px dashed brown;
+    margin: 10px; 
+    box-sizing: content-box;
+  }
