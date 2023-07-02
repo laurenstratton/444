@@ -23,6 +23,9 @@ h3{
     color:#FF2171;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+p{
+    color: black;
+}
 .content-box {
 
     background-color: #ffe5d9;
@@ -40,10 +43,13 @@ h3{
     line-height: auto;
   }
 
- details
+ summary
  {
-    color:#FF2171;
+    color:#bd3c60;
     font-style:italic;
+ }
+ details{
+    color: black;
  }
 
  .threesquares {
