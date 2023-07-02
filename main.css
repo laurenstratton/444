@@ -39,3 +39,26 @@ h3{
     text-align: justify;
     line-height: auto;
   }
+
+ details
+ {
+    color:#FF2171;
+    font-style:italic;
+ }
+
+ .threesquares {
+    background-color: pink ;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+  
+    padding: 10px
+
+ }
+ .square
+ {
+    background-color: wheat;
+    width: 30%;
+    border: 5px solid white;
+   
+ }
