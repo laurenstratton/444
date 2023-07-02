@@ -53,7 +53,7 @@ p{
  }
 
  .threesquares {
-    background-color: pink ;
+    background-color: rgb(246, 153, 168) ;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -65,6 +65,6 @@ p{
  {
     background-color: wheat;
     width: 30%;
-    border: 5px solid white;
+    border: 5px solid #bd3c60;;
    
  }
