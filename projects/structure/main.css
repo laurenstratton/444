@@ -1,3 +1,38 @@
 * {
   box-sizing: border-box;
 }
+body{
+  background-color: black;
+  padding:3px;
+  color:#FFFFFF; 
+}
+.eyeball
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.brain{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brain-box{
+  background-color: black;
+  height:30%;
+  display:flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+
+  padding: 175px
+  
+}
+.brain-item{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  font-size: 18px;
+  background-color: black;
+}
