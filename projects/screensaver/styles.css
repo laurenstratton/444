@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  .audio{
+    position: relative;
+   top: 10px;
+   right: -1100px;
+   
+}
+#digital-clock {
+ background-color: #E8D2A6;
+ width: 50%;
+ margin: auto;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ font-size: 100px;
+ text-align: center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    background-color: #86A3B8;
+}
+.garden{
+    position:absolute;
+    margin-left: -250px; /* very important for the image to be centered */
+    left:50%;
+    bottom:0px;
+}
+.sun{
+    margin-left: 50px;
+}
+
