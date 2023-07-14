@@ -4,18 +4,91 @@
     <title></title>
 
     <link rel="stylesheet" href="../main.css">
-
     </head>
 
     <body>
 
         <center>
-            <div class="brain-item">MEMORIES</div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="brain-item" onclick="openLink()">MEMORIES</div>
 
-            <div class="brain-item">DREAMS</div>
+            <div class="brain-item" onclick="openLink2()">DREAMS</div>
 
-            <div class="brain-item">EGO</div>
+            <div class="brain-item" onclick="openLink3()">EGO</div>
          </center>
 
+         <script>
+            var links = new Array();
+            links[0] = "http://www.google.com/";
+            links[1] = "http://www.bing.com/";
+            links[2] = "http://www.yahoo.com/";
+            links[3] = "http://www.apple.com/";
+            links[4] = "http://www.apple.com/";
+            links[5] = "http://www.apple.com/";
+            links[6] = "http://www.apple.com/";
+            links[7] = "http://www.apple.com/";
+            links[8] = "http://www.apple.com/";
+            links[9] = "http://www.apple.com/";
+            links[10] = "http://www.apple.com/";
+
+            function openLink() {
+            // Chooses a random link:
+            var i = Math.floor(Math.random() * links.length);
+            // Directs the browser to the chosen target:
+            parent.location = links[i];
+            return false;
+            }
+
+
+            var links2 = new Array();
+            links2[0] = "http://www.google.com/";
+            links2[1] = "http://www.bing.com/";
+            links2[2] = "http://www.yahoo.com/";
+            links2[3] = "http://www.apple.com/";
+            links2[4] = "http://www.apple.com/";
+            links2[5] = "http://www.apple.com/";
+            links2[6] = "http://www.apple.com/";
+            links2[7] = "http://www.apple.com/";
+            links2[8] = "http://www.apple.com/";
+            links2[9] = "http://www.apple.com/";
+            links2[10] = "http://www.apple.com/";
+
+            function openLink2() {
+            // Chooses a random link:
+            var i = Math.floor(Math.random() * links2.length);
+            // Directs the browser to the chosen target:
+            parent.location = links2[i];
+            return false;
+            }
+
+
+            var links3 = new Array();
+            links3[0] = "http://www.google.com/";
+            links3[1] = "http://www.bing.com/";
+            links3[2] = "http://www.yahoo.com/";
+            links3[3] = "http://www.apple.com/";
+            links3[4] = "http://www.apple.com/";
+            links3[5] = "http://www.apple.com/";
+            links3[6] = "http://www.apple.com/";
+            links3[7] = "http://www.apple.com/";
+            links3[8] = "http://www.apple.com/";
+            links3[9] = "http://www.apple.com/";
+            links3[10] = "http://www.apple.com/";
+        
+
+            function openLink3() {
+            // Chooses a random link:
+            var i = Math.floor(Math.random() * links3.length);
+            // Directs the browser to the chosen target:
+            parent.location = links3[i];
+            return false;
+            }
+         </script>
+
+        <div class="back-button">
+            <a href="page2.html">
+                <img src="../images/goback.gif" height="100px" width="200px">
+            </a>
+        </div>
     </body>
 </html> 

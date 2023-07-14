@@ -27,12 +27,19 @@ body{
   padding: 175px
   
 }
-.brain-item{
+.brain-item:hover {
   display: flex;
   justify-content: center;
-  width: 50%;
+  height: 50px;
+  width: 300px;
   border: 3px solid white;
   padding: 10px;
-  font-size: 18px;
   background-color: black;
+  font-size: 20px;
+}
+.back-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
