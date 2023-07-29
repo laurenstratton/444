@@ -43,3 +43,14 @@ body{
   left: 0;
   right: 0;
 }
+.next-button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.finalpage{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 30px;
+}
